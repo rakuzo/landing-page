@@ -11,7 +11,8 @@ body {
 /* Section Config Here */
 
 .section1 ,
-.section2 {
+.section2 ,
+.section3 {
     display: flex;
     justify-content: center;
 }
@@ -20,10 +21,15 @@ body {
     background-color: #1f2937;
 }
 
+.section3 {
+    background-color: #e5e7eb;
+}
+
 /* Directly Inside Section Class */
 
 .hero ,
-.info {
+.info ,
+.quote {
     padding: 16px;
     max-width: 1000px;
 }
@@ -110,4 +116,21 @@ a {
     max-width: 120px;
     border: 3px solid #3882f6;
     border-radius: 5px;
+}
+
+/* Quote */
+.quote  {
+    max-width: 600px;
+}
+
+.words {
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-bottom: 16px;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
 }
