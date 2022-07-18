@@ -166,3 +166,14 @@ a {
     color: #e5e7eb;
     padding: 8px;
 }
+
+/* Button */
+
+.signup {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 5px;
+    height: fit-content;
+}
