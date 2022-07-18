@@ -2,6 +2,8 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+    overflow: hidden;
   }
 
 .hero {
@@ -35,8 +37,6 @@ a {
 }
 
 /* Sub Hero */
-
-
 
 .subhero img {
     max-height: 200px;
