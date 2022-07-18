@@ -152,3 +152,17 @@ a {
     padding: 16px;
     margin: 32px;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1f2937;
+}
+
+.copyright {
+    color: #e5e7eb;
+    padding: 8px;
+}
