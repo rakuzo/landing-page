@@ -11,6 +11,7 @@ body {
 
 .hero {
     background-color: #1f2937;
+    padding: 16px;
 }
 
 /* Header */
@@ -18,6 +19,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .header img {
@@ -44,6 +46,7 @@ a {
 
 .subhero {
     display: flex;
+    gap: 16px;
 }
 
 .subhero img {
