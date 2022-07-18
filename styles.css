@@ -8,10 +8,16 @@ body {
     flex-direction: column;
   }
 
-.section1 {
-    background-color: #1f2937;
+/* Section Config Here */
+
+.section1 ,
+.section2 {
     display: flex;
     justify-content: center;
+}
+
+.section1 {
+    background-color: #1f2937;
 }
 
 /* Directly Inside Section Class */
@@ -73,4 +79,12 @@ a {
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 16px;
+}
+
+/* Info */
+
+.subinfo img {
+    max-width: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
 }
