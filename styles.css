@@ -136,3 +136,9 @@ a {
     font-weight: bold;
     text-align: right;
 }
+
+/* Join Us */
+
+.joinus .container {
+    background-color: #3882f6;
+}
