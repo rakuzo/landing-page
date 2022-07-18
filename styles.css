@@ -147,10 +147,17 @@ a {
     background-color: #3882f6;
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: 600px;
     border-radius: 10px;
     padding: 16px;
     margin: 32px;
+}
+
+.comeon {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* Footer */
