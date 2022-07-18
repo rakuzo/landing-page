@@ -12,7 +12,8 @@ body {
 
 .section1 ,
 .section2 ,
-.section3 {
+.section3 ,
+.section4 {
     display: flex;
     justify-content: center;
 }
@@ -138,7 +139,15 @@ a {
 }
 
 /* Join Us */
+.joinus {
+    max-width: 1000px;
+}
 
 .joinus .container {
     background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 16px;
 }
