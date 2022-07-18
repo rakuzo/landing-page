@@ -22,7 +22,8 @@ body {
 
 /* Directly Inside Section Class */
 
-.hero {
+.hero ,
+.info {
     padding: 16px;
     max-width: 1000px;
 }
@@ -70,7 +71,7 @@ a {
 
 .main {
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: bolder;
     color: #f9faf8;
     margin-bottom: 8px;
 }
@@ -82,9 +83,31 @@ a {
 }
 
 /* Info */
+.info {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title-info {
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: bolder;
+    width: 1000px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.subinfo {
+    max-width: 130px;
+}
 
 .subinfo img {
-    max-width: 100px;
+    max-width: 120px;
     border: 3px solid #3882f6;
     border-radius: 5px;
 }
